@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiDirectionalStreaming.Grpc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiDirectionalStreaming.Client", "src\BiDirectionalStreaming.Client\BiDirectionalStreaming.Client.csproj", "{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{C674C805-321E-4B38-85CC-18105B1946CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileStreaming", "FileStreaming", "{4C8AFF72-0110-491E-935E-B18B3433FBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreaming.GrpcServer", "src\FileStreaming.GrpcServer\FileStreaming.GrpcServer.csproj", "{56C5C075-A906-4DDC-B256-167353C93460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +73,10 @@ Global
 		{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C5C075-A906-4DDC-B256-167353C93460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C5C075-A906-4DDC-B256-167353C93460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C5C075-A906-4DDC-B256-167353C93460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C5C075-A906-4DDC-B256-167353C93460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +94,9 @@ Global
 		{39F8C8E7-BE41-46FB-A1B5-06BB8D6AABEA} = {692248F0-C198-48C4-AFA2-90351047A7B2}
 		{71370282-074C-46A7-9778-F505645D1A72} = {39F8C8E7-BE41-46FB-A1B5-06BB8D6AABEA}
 		{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA} = {39F8C8E7-BE41-46FB-A1B5-06BB8D6AABEA}
+		{C674C805-321E-4B38-85CC-18105B1946CC} = {692248F0-C198-48C4-AFA2-90351047A7B2}
+		{4C8AFF72-0110-491E-935E-B18B3433FBFE} = {C674C805-321E-4B38-85CC-18105B1946CC}
+		{56C5C075-A906-4DDC-B256-167353C93460} = {4C8AFF72-0110-491E-935E-B18B3433FBFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4D3F5FD-7C52-4BE1-8536-34961C010755}
