@@ -7,33 +7,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unary", "Unary", "{42AF9A1C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{692248F0-C198-48C4-AFA2-90351047A7B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unary.GrpcServer", "src\Unary.GrpcServer\Unary.GrpcServer.csproj", "{9AAA45FD-A28B-40BA-B4ED-4FE35AB483C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unary.GrpcServer", "src\Unary.GrpcServer\Unary.GrpcServer.csproj", "{9AAA45FD-A28B-40BA-B4ED-4FE35AB483C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unary.Client", "src\Unary.Client\Unary.Client.csproj", "{C8A9C178-7365-4714-A609-EE8431FDFCE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unary.Client", "src\Unary.Client\Unary.Client.csproj", "{C8A9C178-7365-4714-A609-EE8431FDFCE9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerStreaming", "ServerStreaming", "{2D95B58F-B69A-4F0C-ACF7-4B19AF1BDCC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerStreaming.GrpcServer", "src\ServerStreaming.GrpcServer\ServerStreaming.GrpcServer.csproj", "{646C0F45-D772-4663-8CA7-C6FE2DD7F59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerStreaming.GrpcServer", "src\ServerStreaming.GrpcServer\ServerStreaming.GrpcServer.csproj", "{646C0F45-D772-4663-8CA7-C6FE2DD7F59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerStreaming.Client", "src\ServerStreaming.Client\ServerStreaming.Client.csproj", "{0273C627-CF4E-4AEF-AF33-257B6778A623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerStreaming.Client", "src\ServerStreaming.Client\ServerStreaming.Client.csproj", "{0273C627-CF4E-4AEF-AF33-257B6778A623}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientStreaming", "ClientStreaming", "{66C7EC02-9351-4948-AB84-F1A630307A57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStreaming.GrpcServer", "src\ClientStreaming.GrpcServer\ClientStreaming.GrpcServer.csproj", "{82C8AD33-6C81-43AB-AAA2-8C2EF7AF0F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientStreaming.GrpcServer", "src\ClientStreaming.GrpcServer\ClientStreaming.GrpcServer.csproj", "{82C8AD33-6C81-43AB-AAA2-8C2EF7AF0F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStreaming.Client", "src\ClientStreaming.Client\ClientStreaming.Client.csproj", "{895ECA64-1708-4BC7-9791-8F1C2918AFC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientStreaming.Client", "src\ClientStreaming.Client\ClientStreaming.Client.csproj", "{895ECA64-1708-4BC7-9791-8F1C2918AFC5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BiDirectionalStreaming", "BiDirectionalStreaming", "{39F8C8E7-BE41-46FB-A1B5-06BB8D6AABEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiDirectionalStreaming.GrpcServer", "src\BiDirectionalStreaming.GrpcServer\BiDirectionalStreaming.GrpcServer.csproj", "{71370282-074C-46A7-9778-F505645D1A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiDirectionalStreaming.GrpcServer", "src\BiDirectionalStreaming.GrpcServer\BiDirectionalStreaming.GrpcServer.csproj", "{71370282-074C-46A7-9778-F505645D1A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiDirectionalStreaming.Client", "src\BiDirectionalStreaming.Client\BiDirectionalStreaming.Client.csproj", "{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiDirectionalStreaming.Client", "src\BiDirectionalStreaming.Client\BiDirectionalStreaming.Client.csproj", "{C4EA0CAF-1797-4CC8-98B9-71B67D46D3BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{C674C805-321E-4B38-85CC-18105B1946CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileStreaming", "FileStreaming", "{4C8AFF72-0110-491E-935E-B18B3433FBFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreaming.GrpcServer", "src\FileStreaming.GrpcServer\FileStreaming.GrpcServer.csproj", "{56C5C075-A906-4DDC-B256-167353C93460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStreaming.GrpcServer", "src\FileStreaming.GrpcServer\FileStreaming.GrpcServer.csproj", "{56C5C075-A906-4DDC-B256-167353C93460}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStreaming.Client", "src\FileStreaming.Client\FileStreaming.Client.csproj", "{D1DE5C43-44CA-4522-8D67-A905A533E3FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{56C5C075-A906-4DDC-B256-167353C93460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56C5C075-A906-4DDC-B256-167353C93460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C5C075-A906-4DDC-B256-167353C93460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DE5C43-44CA-4522-8D67-A905A533E3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DE5C43-44CA-4522-8D67-A905A533E3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DE5C43-44CA-4522-8D67-A905A533E3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DE5C43-44CA-4522-8D67-A905A533E3FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{C674C805-321E-4B38-85CC-18105B1946CC} = {692248F0-C198-48C4-AFA2-90351047A7B2}
 		{4C8AFF72-0110-491E-935E-B18B3433FBFE} = {C674C805-321E-4B38-85CC-18105B1946CC}
 		{56C5C075-A906-4DDC-B256-167353C93460} = {4C8AFF72-0110-491E-935E-B18B3433FBFE}
+		{D1DE5C43-44CA-4522-8D67-A905A533E3FC} = {4C8AFF72-0110-491E-935E-B18B3433FBFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4D3F5FD-7C52-4BE1-8536-34961C010755}
